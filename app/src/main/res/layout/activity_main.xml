@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity"
+    android:background="#fff"
+    android:layout_centerInParent="true"
+             >
+
+    <Button
+        android:id="@+id/imageview"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="100sp"
+
+        android:background="@drawable/prevent_backgrnd"
+        android:drawableTop="@drawable/prevention"
+        android:scaleType="centerInside"
+        android:text="    Prevention"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <Button
+        android:id="@+id/imageview2"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_toRightOf="@id/imageview"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/awareness_bckrnd"
+        android:scaleType="centerInside"
+        android:drawableTop="@drawable/awareness"
+        android:layout_marginLeft="20sp"
+        android:text="   Awareness"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+
+        />
+
+    <Button
+        android:id="@+id/imageview3"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/imageview2"
+        android:textAlignment="textStart"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/button_background"
+        android:textSize="25sp"
+        android:scaleType="centerInside"
+        android:text="   Identification"
+        android:drawableTop="@drawable/download"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        />
+
+    <Button
+        android:id="@+id/imageview4"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_toRightOf="@id/imageview3"
+        android:layout_below="@id/imageview2"
+        android:textAlignment="textStart"
+        android:layout_marginTop="60sp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/facilitate_bckrnd"
+        android:textSize="25sp"
+        android:scaleType="centerInside"
+        android:text="   Facilitation"
+        android:drawableTop="@drawable/facilitation_group1"
+        android:paddingStart="4sp"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+
+</RelativeLayout>
