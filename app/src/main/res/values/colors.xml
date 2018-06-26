@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_pressed">#560041f2</color>
+    <color name="button_focused">#ff8a00</color>
+    <color name="button_default">#ffff</color>
+    <color name="button_pressed_prevent">#990f0a0a</color>
+    <color name="button_focused_prevent">#8c0f0a0a</color>
+    <color name="button_pressed_facilitate">#9ad7907b</color>
+    <color name="button_focused_facilitate">#9ad7907b</color>
+    <color name="button_pressed_awareness">#9a96e6b3</color>
+    <color name="button_focused_awareness">#9a96e6b3</color>
+</resources>
