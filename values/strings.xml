@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NarcoSoft</string>
+    <string name="dob">DOB</string>
+    <string name="appname">NarcoSoft</string>
+    <string name="app_descrip">The Official Punjab Govt App</string>
+    <string name="message">Striving for a Nasha Mukt Mohalla !</string>
+    <string name="uid_number">UID Number</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
